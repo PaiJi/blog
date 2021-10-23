@@ -1,0 +1,68 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the deploy branch
+  push:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Checkout theme repo
+        uses: actions/checkout@v2
+        with:
+          repository: PaiJi/hexo-theme-ego
+          ref: master
+          path: themes/hexo-theme-ego
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 'lts/*'
+          cache: 'yarn'
+      - name: Install dependencies & build
+        run: |
+          npm install --global yarn
+          yarn
+          yarn build
+      - name: Save build artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: public
+          path: public/
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v2.0.10
+        with:
+          # Artifact name
+          name: public
+          # Destination path
+          path: public/
+
+      - name: Set private key
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          # Private SSH key to register in the SSH agent
+          ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+
+      - name: Scan public keys
+        run: |
+          ssh-keyscan www.jipai.moe >> ~/.ssh/known_hosts
+
+      - name: Rsync file
+        run: |
+              rsync -av --delete public/ deploy@www.jipai.moe:/home/deploy/web/blog.jipai.moe
