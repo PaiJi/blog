@@ -6,7 +6,7 @@ cusdis:
 
 disqusjs:
   enable: true
-  shortname: JiPai Store
+  shortname: paiji
   siteName: JiPai Store
   api: https://disqus.skk.moe/disqus/
   apikey: XmzmGKEBpV11VlOd0K8QJnDOIsJRsW6y9vf6DO6Nw2MkWXkSGvqYSReey9btEU7U
