@@ -6,6 +6,8 @@ categories:
 date: 2019-06-05 15:25:57
 permalink: 'limit-spotify-cache-size/'
 ---
+一个三分钟生活小妙招，教你限制Spotify的缓存文件夹体积。
+<!-- more -->
 
 这功能明明是做了的，但是没有UI界面不在设置里，不是很理解Spotify的思路？
 
