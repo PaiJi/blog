@@ -8,7 +8,7 @@ subtitle: 'JiPai and Story'
 description: '鸡排和他的故事。'
 keywords:
 author: JiPai
-language: zh-cn
+language: zh-Hans
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -33,6 +33,7 @@ skip_render:
 # Writing
 new_post_name: :year/:title.md # File name of new posts
 default_layout: post
+auto_spacing: true
 titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
@@ -76,7 +77,7 @@ archive:
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
+meta_generator: false
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
