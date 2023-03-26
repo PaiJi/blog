@@ -5,7 +5,7 @@ categories:
   - - 安利
 date: 2020-01-12 21:47:13
 permalink: 'recommand-spotify/'
-photos: []
+photos: ['https://images.pexels.com/photos/819012/pexels-photo-819012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2']
 ---
 
 机缘巧合下使用 Spotify Premium 已经快半年，近来又上了 Netflix 的车，鸡排觉得是时候卖一卖安利了！虽然没人吃。

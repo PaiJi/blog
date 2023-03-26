@@ -4,7 +4,7 @@ date: 2021-10-23 00:48:37
 tags: ['hexo','主题开发']
 categories: '心得'
 permalink: 'hexo-theme-dev-note/'
-photos:
+photos: https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 ---
 写这个主题的时候还是遇到了一点奇奇怪怪的坑，放在这里给自己立个警示牌，如果能帮到更多人就好了。
 <!-- more -->

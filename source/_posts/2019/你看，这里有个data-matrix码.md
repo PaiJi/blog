@@ -5,6 +5,7 @@ categories:
   - - Diary
 date: 2019-04-26 18:28:09
 permalink: 'a-data-matrix-code/'
+photos: ['https://images.pexels.com/photos/785418/pexels-photo-785418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2']
 ---
 
 早上被人戳醒，对方发来一个奇怪的二维码：“这啥玩意啊，我也想生成一个，怎么解码再生成就不一样了呢”。怀着“这种小事我用草料二维码分分钟解决给你看的心情，我从床上爬了起来，然后就把早餐时间赔了进去......

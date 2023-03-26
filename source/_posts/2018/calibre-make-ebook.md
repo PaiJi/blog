@@ -8,6 +8,7 @@ categories:
   - - 玩具箱
 date: 2018-04-26 20:58:19
 permalink: 'calibre-make-ebook/'
+photos: ['https://images.pexels.com/photos/59143/pexels-photo-59143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2']
 ---
 
 > Booklover's best friend.——Amazon

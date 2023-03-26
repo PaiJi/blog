@@ -5,6 +5,7 @@ categories:
   - - Diary
 date: 2019-01-14 21:57:52
 permalink: 'move-website-to-aliyun/'
+photos: ['https://images.pexels.com/photos/262353/pexels-photo-262353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2']
 ---
 
 近来在ping.cat 上看到LightSail的SGP线路炸得不成样子，访问十分缓慢，这怎么可以呢？！毕竟打开太慢的话就根本不想上来更新了！

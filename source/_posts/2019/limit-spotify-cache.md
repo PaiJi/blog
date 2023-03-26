@@ -5,6 +5,7 @@ categories:
   - - uncategorized
 date: 2019-06-05 15:25:57
 permalink: 'limit-spotify-cache-size/'
+photos: ['https://images.pexels.com/photos/1113804/pexels-photo-1113804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2']
 ---
 一个三分钟生活小妙招，教你限制Spotify的缓存文件夹体积。
 <!-- more -->

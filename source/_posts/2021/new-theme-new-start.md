@@ -4,7 +4,7 @@ date: 2021-10-22 03:13:45
 tags: 
 categories: ['日记']
 permalink: 'new-theme-new-start/'
-photos:
+photos: https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 ---
 上一次写博客是在2020年，没错，这篇 {% post_link recommand-spotify %}，那之后发生了很多事情，首先是任职的公司宣布了解散，然后就在家里好好休息了一段时间。 于是乘着重新找工作的时候，重写了首页和博客的主题，也算是练练手免得基础全都忘光了。
 <!-- more -->
