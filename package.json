@@ -29,6 +29,6 @@
     "hexo-browsersync": "^0.3.0",
     "hexo-migrator-wordpress": "^2.1.2",
     "hexo-render-pug": "^2.1.4",
-    "hexo-renderer-stylus": "^2.1.0"
+    "hexo-renderer-stylus": "^3.0.0"
   }
 }
