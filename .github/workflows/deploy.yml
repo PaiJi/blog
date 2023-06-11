@@ -20,24 +20,24 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Checkout theme repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: PaiJi/hexo-theme-ego
           ref: master
           path: themes/hexo-theme-ego
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: 'lts/*'
           cache: 'yarn'
       - name: Install dependencies & build
         run: |
-          npm install --global yarn
+          corepack enable
           yarn
           yarn build
       - name: Save build artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: public
           path: public/
@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v2.0.10
+        uses: actions/download-artifact@v3
         with:
           # Artifact name
           name: public
@@ -54,7 +54,7 @@ jobs:
           path: public/
 
       - name: Set private key
-        uses: webfactory/ssh-agent@v0.5.3
+        uses: webfactory/ssh-agent@v0.8.0
         with:
           # Private SSH key to register in the SSH agent
           ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}

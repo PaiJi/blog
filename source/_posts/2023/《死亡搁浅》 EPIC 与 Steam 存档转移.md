@@ -3,7 +3,7 @@ title: 《死亡搁浅》 EPIC 与 Steam 存档转移
 date: 2023-1-15 17:13:12
 tags: ['死亡搁浅','steam','epic','存档']
 categories: ['游戏']
-permalink: /death-stranding-arcvhive-transfer/
+permalink: death-stranding-arcvhive-transfer/
 photos: https://qcloud-cdn-static.lonepixel.cn/blog/2023/Death%20Stranding%202022_12_29%201_07_51.png
 ---
 买了Steam版的死亡搁浅却发现在EPIC的存档不能通用？来看看这篇文章！

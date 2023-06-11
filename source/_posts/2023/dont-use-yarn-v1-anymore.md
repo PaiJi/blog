@@ -3,7 +3,7 @@ title: 都2023年了，别再用 Yarn v1 啦
 date: 2023-06-11 12:49:36
 tags:
 categories: [FrontEnd]
-permalink: '/dont-use-yarn-v1-anymore/'
+permalink: dont-use-yarn-v1-anymore/
 photos:
 ---
 最近在 Cloudflare Page 上运行 Next.js 时，log很无情的抛了一堆错，其中之一的原因是，CloudFlare Page 默认以 Yarn3 和 Node.js 18 作为builder runtime，而cli尖锐地指出：检测到yarn v1。这下我坐不住了，什么，我在用v1，我不是在用v2吗😧？
