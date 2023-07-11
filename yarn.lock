@@ -1714,10 +1714,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-equals@npm:^2.0.1":
-  version: 2.0.4
-  resolution: "fast-equals@npm:2.0.4"
-  checksum: 1aac8a2e16b33e5e402bb5cd46be65f1ca331903c2c44e3bd75324e8472ee04f0acdbc6889e45fc28f9707ca3964f2a86789b32305d4d8b85dc97f61e446ef4b
+"fast-equals@npm:^3.0.1":
+  version: 3.0.3
+  resolution: "fast-equals@npm:3.0.3"
+  checksum: e7ac0ae5a10289c773f75654ced22563837336bde7ebb595b7d238a20b77008a821c1ca3526a50e96fe0662ced7454cf99b7488bb64506463a4f4729c523ac4c
   languageName: node
   linkType: hard
 
@@ -2123,7 +2123,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-front-matter@npm:^4.0.0":
+"hexo-front-matter@npm:4.0.0":
   version: 4.0.0
   resolution: "hexo-front-matter@npm:4.0.0"
   dependencies:
@@ -2360,15 +2360,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo@npm:^7.0.0-rc1":
-  version: 7.0.0-rc1
-  resolution: "hexo@npm:7.0.0-rc1"
+"hexo@npm:^7.0.0-rc2":
+  version: 7.0.0-rc2
+  resolution: "hexo@npm:7.0.0-rc2"
   dependencies:
     abbrev: ^2.0.0
     archy: ^1.0.0
     bluebird: ^3.7.2
     hexo-cli: ^4.3.0
-    hexo-front-matter: ^4.0.0
+    hexo-front-matter: 4.0.0
     hexo-fs: ^4.1.1
     hexo-i18n: ^2.0.0
     hexo-log: ^4.0.1
@@ -2376,7 +2376,7 @@ __metadata:
     js-yaml: ^4.1.0
     js-yaml-js-types: ^1.0.0
     micromatch: ^4.0.4
-    moize: ^6.1.0
+    moize: ^6.1.6
     moment: ^2.29.1
     moment-timezone: ^0.5.34
     nunjucks: ^3.2.3
@@ -2390,7 +2390,7 @@ __metadata:
     warehouse: ^5.0.0
   bin:
     hexo: bin/hexo
-  checksum: 5290b0a53f3bf7b80b13e2ebf6e044bf61476cb44b67c21eb0bdee191f0d92a8bc515923805fd08bca774cf3b037d1fe2d4887c3d34df87aadce9aafd86de955
+  checksum: b87667bfed306a989641cc8823ab2ef820159ffd1a3b1297f7970e9028c8dc666827c2d92f775b1b0e1185932c548ed96de269d012928db35028f2a3fa5754f2
   languageName: node
   linkType: hard
 
@@ -2835,7 +2835,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jipai-hexo-blog@workspace:."
   dependencies:
-    hexo: ^7.0.0-rc1
+    hexo: ^7.0.0-rc2
     hexo-browsersync: ^0.3.0
     hexo-generator-archive: ^2.0.0
     hexo-generator-category: ^2.0.0
@@ -3147,10 +3147,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micro-memoize@npm:^4.0.9":
-  version: 4.0.9
-  resolution: "micro-memoize@npm:4.0.9"
-  checksum: c755539864caaa232b948e1b351f371df91ceaa78e16b18abe64dd488de93dde253456c3a6c4f93b48e05aa3e2e012891f7c21e5ba876d7850f4e4ea33a0f944
+"micro-memoize@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "micro-memoize@npm:4.1.2"
+  checksum: 4b02750622d44b5ab31573c629b5d91927dd0c2727743ff75e790c223ab6cd02c48cc3bddea69da0dffb688091a0a71a17944947dd165f8ba9e03728bc30a76d
   languageName: node
   linkType: hard
 
@@ -3365,13 +3365,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"moize@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "moize@npm:6.1.0"
+"moize@npm:^6.1.6":
+  version: 6.1.6
+  resolution: "moize@npm:6.1.6"
   dependencies:
-    fast-equals: ^2.0.1
-    micro-memoize: ^4.0.9
-  checksum: 95769f7860c293468890c30e1c812487f2f5e462d5069375ebcca133149458aacfd51cd53f9b894112db8973d216f767544c724e1a959939c80addffa88eb100
+    fast-equals: ^3.0.1
+    micro-memoize: ^4.1.2
+  checksum: a81c56e8d3d30ad0c324369ab636e48b9799abb7f5e0955250f99744dbea456848107d293436face8e12acf7bc820e759048118083cc37644a4c95a37c66e566
   languageName: node
   linkType: hard
 
