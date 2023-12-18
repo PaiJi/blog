@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "0839b87c01d01ed7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b64908d1825e99dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2664f87ef14915f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/now-or-never.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "617d75d86e8d5465",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bfe5876fe6a08c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ba80b86a26cf61f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2d1430daef2d8569",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bedbaac14b6f3128",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "31109cafcba35182",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5be2edff6b1b458c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5efb782fe645d8d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f575768891ae7b6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2023/now-or-never.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f92014713133ad5b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2023/now-or-never.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "645689b6780dc85a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dbc12b37d89b3a5e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2023/now-or-never.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "2664f87ef14915f0",
+  "lastOpenFiles": [
+    "2023/dont-rely-on-react-hydration-mismatch-check.md",
+    "2022/再见了西部世界.md",
+    "2023/好用的text-wrap.md",
+    "2023/为你的网站添加谷歌的富媒体搜索结果.md",
+    "2023/为什么你不愿意为软件付费？.md",
+    "2023/now-or-never.md",
+    "2023/dont-use-yarn-v1-anymore.md",
+    "2023/《死亡搁浅》 EPIC 与 Steam 存档转移.md",
+    "2022/王权没有永恒.md",
+    "2023/你也许不需要useEffect.md",
+    "2021/new-theme-new-start.md",
+    "2021/hexo主题开发小记.md",
+    "2020/recommand-spotify.md",
+    "2023/为什么不愿意为软件付费？.md",
+    "2019/你看，这里有个data-matrix码.md",
+    "qcloud-cdn-static.lonepixel.cn/blog/2023/Snipaste_2023-04-10_23-50-35.png.md",
+    "qcloud-cdn-static.lonepixel.cn/blog/2023",
+    "qcloud-cdn-static.lonepixel.cn/blog",
+    "qcloud-cdn-static.lonepixel.cn",
+    "2018/calibre-make-ebook.md",
+    "2019/move-to-aliyunhk.md",
+    "2019/limit-spotify-cache.md",
+    "2021/attachements/Pasted image 20230326000654.png",
+    "2021/attachements",
+    "2023/问就是后悔系列——威联通 Docker Wireguard 安装踩坑录.md",
+    "qcloud-cdn-static.lonepixel.cn/blog/2022/how-it-start.png.md",
+    "王权没有永恒.md",
+    "2017/163-mc.md"
+  ]
+}
