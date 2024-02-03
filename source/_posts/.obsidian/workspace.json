@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b64908d1825e99dc",
+        "id": "6d7bf82f0b9a671d",
         "type": "tabs",
         "children": [
           {
-            "id": "2664f87ef14915f0",
+            "id": "c7cae62c9bed1a4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/now-or-never.md",
+                "file": "2024/小米不再拥抱发烧友.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/now-or-never.md",
+                "file": "2024/小米不再拥抱发烧友.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/now-or-never.md",
+                "file": "2024/小米不再拥抱发烧友.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/now-or-never.md"
+                "file": "2024/小米不再拥抱发烧友.md"
               }
             }
           }
@@ -154,16 +154,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2664f87ef14915f0",
+  "active": "c7cae62c9bed1a4d",
   "lastOpenFiles": [
-    "2023/dont-rely-on-react-hydration-mismatch-check.md",
-    "2022/再见了西部世界.md",
-    "2023/好用的text-wrap.md",
-    "2023/为你的网站添加谷歌的富媒体搜索结果.md",
-    "2023/为什么你不愿意为软件付费？.md",
     "2023/now-or-never.md",
+    "2024/小米不再拥抱发烧友.md",
+    "2023/项目选型的一点个人看法.md",
+    "2024/post.md",
+    "2024",
+    "2023/为什么你不愿意为软件付费？.md",
+    "2023/为你的网站添加谷歌的富媒体搜索结果.md",
     "2023/dont-use-yarn-v1-anymore.md",
+    "2023/dont-rely-on-react-hydration-mismatch-check.md",
     "2023/《死亡搁浅》 EPIC 与 Steam 存档转移.md",
+    "2023/好用的text-wrap.md",
+    "2022/再见了西部世界.md",
     "2022/王权没有永恒.md",
     "2023/你也许不需要useEffect.md",
     "2021/new-theme-new-start.md",
